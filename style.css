@@ -89,7 +89,7 @@
 }
 #about-main .jumbotron .jumbotron-inner .top-box .content-box p {
   text-align: center;
-  color: #13316e;
+  color: #666565;
   font-size: 18px;
   font-weight: 500;
   margin: 0;
@@ -159,6 +159,7 @@
   height: 100%;
   width: 100%;
   margin-top: 150px;
+  margin-bottom: -100px;
 }
 @media (max-width: 640px) {
   #about-main .story-container {
@@ -173,13 +174,13 @@
     margin-top: 50px;
   }
 }
-#about-main .story-container .need-for-dx-container {
+#about-main .story-container .need-for-dx-container, #about-main .story-cointainer .demo-container {
   max-width: 950px;
   margin: 0 auto;
   padding: 0 20px;
 }
 @media (max-width: 815px) {
-  #about-main .story-container .need-for-dx-container{
+  #about-main .story-container .need-for-dx-container, #about-main .story-cointainer .demo-container{
     width: 100%;
   }
 }
@@ -191,25 +192,30 @@
 #about-main .story-container .need-for-dx-container .img-container img {
   margin: 50px auto;
 }
-#about-main .story-container .need-for-dx-container h3 {
+#about-main .story-container .need-for-dx-container h3, #about-main .story-cointainer .demo-container h3 {
   color: #074e8c;
 }
-#about-main .story-container .need-for-dx-container p {
+#about-main .story-container .need-for-dx-container p, #about-main .story-cointainer .demo-container p {
   font-size: 15px;
   margin-top: 20px;
   color: #676a6c;
 }
 @media (max-width: 640px) {
-  #about-main .story-container .need-for-dx-container p {
+  #about-main .story-container .need-for-dx-container p, #about-main .story-container .demo-container p {
     font-size: 13px;
   }
 }
-#about-main .story-container .need-for-dx-container ul{
-  margin-top: 30px;
-  list-style-image: url("https://apimatic.io/img/theme/aboutUs/bullet.svg");
-}
-#about-main .story-container .need-for-dx-container ul li{
-  line-height: 25px;
-  padding-left: 5px;
-  color: #676a6c;
+
+#about-main .story-container .need-for-dx-container .button {
+  background-color: #848787; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%
 }
